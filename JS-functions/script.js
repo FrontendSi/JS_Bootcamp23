@@ -38,7 +38,7 @@ function myDog(name, bread, color, age) {
         color:color,
         age:age
     }
-    return "I have a wonderful dog named " + name + ". She is " + bread + ". The color of her fur is " + color + " and she is young dog- only " + age + " years old"
+    return "I have a wonderful dog named " + dog.name + ". She is " + dog.bread + ". The color of her fur is " + dog.color + " and she is young dog- only " + dog.age + " years old"
 }
 
 console.log( myDog("Vetra", "Catahoula", "marmur", 2))
